@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    width: 700px;
+}
+
+.results {
+    background-color:  hsl(234, 85%, 45%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.result {
+    background-color: blue;
+    border-radius: 50%;
+    height: 150px; /* Adjust size of circle */
+    width: 150px; /* Adjust size of circle */
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-number {
+    font-size: 48px !important; /* Adjust font size */
+    margin-bottom: 5px; /* Adjust spacing between number and text */
+}
+
+.result span {
+    display: block; /* Ensures "of 100" is on a new line */
+    font-size: 20px; /* Adjust font size of "of 100" */
+}
