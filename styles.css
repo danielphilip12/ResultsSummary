@@ -6,7 +6,8 @@ body {
 
 .card {
   display: flex;
-  width: 700px;
+  width: 50%;
+  margin-top: 10%;
 }
 
 .half {
@@ -26,7 +27,7 @@ body {
 }
 
 .result {
-  background-color: blue;
+  background-color: hsl(241, 81%, 54%);
   border-radius: 50%;
   height: 150px; /* Adjust size of circle */
   width: 150px; /* Adjust size of circle */
@@ -86,4 +87,15 @@ button {
 
 span img {
     padding-right: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .half {
+    width: 95%;
+  }
 }
